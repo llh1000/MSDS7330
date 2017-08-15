@@ -6,7 +6,7 @@ select team, year, wins, total, wins/total as "percentwon" from wins;
 select * from percent;
 
 ---****determine how many seasons are included in the review****---
-select min(year) as BeginYear, team as Team, +2006-min(year)+1 as Seasons
+select min(year) as BeginYear, team as Team, +2016-min(year)+1 as Seasons
 from wins
 group by Team
 having BeginYear<>1969
@@ -21,7 +21,7 @@ create table decade
 (year numeric, 
 decade varchar(10)
 );
-insert into decade values(1960,'1970s');
+insert into decade values(1969,'1970s');
 insert into decade values(1970,'1970s');
 insert into decade values(1971,'1970s');
 insert into decade values(1972,'1970s');
