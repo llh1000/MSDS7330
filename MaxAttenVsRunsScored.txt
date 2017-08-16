@@ -1,0 +1,36 @@
+
+** Top 10 teams maximum attendace compaired to that seasons runs scored 
+Team	Year	Attendance	Runs	Rank
+Chicago Cubs	2008	3299840	855	1
+Cleveland Indians	1999	3468436	1009	1
+Cincinnati Reds	1976	2629708	857	2
+Chicago White Sox	2006	2957414	868	3
+San Diego Padres	2004	3040046	768	4
+Toronto Blue Jays	1993	4057947	847	5
+Houston Astros	2004	3087872	803	6
+Baltimore Orioles	1997	3711132	812	6
+New York Mets	2008	4047404	799	6
+Seattle Mariners	2002	3542938	814	7
+Minnesota Twins	2010	3223640	781	8
+Boston Red Sox	2009	3062699	872	8
+Detroit Tigers	2008	3202654	821	9
+
+** Not top 10 teams maximum attendace compaired to that seasons runs scored
+Team	Year	Attendance	Runs	Rank
+Atlanta Braves	1993	3884720	767	12
+Los Angeles Dodgers	2007	3856753	735	12
+Los Angeles Angels	2006	3406790	766	15
+Arizona Diamondbacks	1998	3610290	665	17
+Kansas City Royals	2015	2708549	724	17
+Texas Rangers	2012	3460280	808	17
+Colorado Rockies	1993	4483350	758	17
+Philadelphia Phillies	2011	3680718	713	18
+Tampa Bay Rays	1998	2506293	620	18
+New York Yankees	2008	4298655	789	22
+Miami Marlins	1993	3064847	581	22
+Pittsburgh Pirates	2015	2498596	697	22
+Oakland Athletics	1990	2900217	733	23
+Milwaukee Brewers	2011	3071373	721	23
+St. Louis Cardinals	2007	3552150	725	26
+Washington Nationals	2005	2692123	639	31
+San Francisco Giants	2011	3387303	570	44
