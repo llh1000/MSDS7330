@@ -8,8 +8,8 @@ setwd("")
 #Check files 
 list.files()
 
-#Read csv file in to R
-rs <- read.csv("PlottingData.csv", sep = ",")
+#Read txt file in to R
+rs <- read.table("PlottingData.txt")
 
 #Check data
 head(rs)
