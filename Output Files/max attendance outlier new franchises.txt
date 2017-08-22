@@ -1,0 +1,6 @@
+Team	Year	Attendance	WinningPercent	SeasonRank	FranchiseStart
+Arizona Diamondbacks	1998	3610290	0.3988	17	1998
+Colorado Rockies	1993	4483350	0.4136	22	1993
+Miami Marlins	1993	3064847	0.3951	21	1993
+Tampa Bay Rays	1998	2506293	0.3865	16	1998
+Washington Nationals	2005	2692123	0.5000	20	2005

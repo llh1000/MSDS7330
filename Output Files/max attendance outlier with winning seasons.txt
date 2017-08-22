@@ -1,0 +1,7 @@
+team	year	attendance	percentwon	rank
+Boston Red Sox	2009	3062699	0.5828	11
+Los Angeles Angels	2006	3406790	0.5494	13
+Los Angeles Dodgers	2007	3856753	0.5031	37
+New York Mets	2008	4047404	0.5460	12
+New York Yankees	2008	4298655	0.5460	28
+San Francisco Giants	2011	3387303	0.5309	21

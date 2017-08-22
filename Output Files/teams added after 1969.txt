@@ -1,0 +1,7 @@
+BeginYear	Team	Seasons
+1977	Seattle Mariners	40
+1977	Toronto Blue Jays	40
+1993	Colorado Rockies	24
+1993	Miami Marlins	24
+1998	Arizona Diamondbacks	19
+1998	Tampa Bay Rays	19

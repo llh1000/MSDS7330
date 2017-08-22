@@ -1,0 +1,7 @@
+Franchise	TeamName	BeginningYear
+Milwaukee Brewers	Seattle Pilots	1969
+Milwaukee Brewers	Milwaukee Brewers	1970
+Texas Rangers	Washington Senators	1969
+Texas Rangers	Texas Rangers	1972
+Washington Nationals	Montreal Expos	1969
+Washington Nationals	Washington Nationals	2005

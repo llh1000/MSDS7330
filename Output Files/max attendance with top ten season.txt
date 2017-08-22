@@ -1,0 +1,18 @@
+team	year	attendance	percentwon	rank
+Atlanta Braves	1993	3884720	0.6420	2
+Baltimore Orioles	1997	3711132	0.6049	6
+Chicago Cubs	2008	3299840	0.5951	3
+Chicago White Sox	2006	2957414	0.5556	8
+Cincinnati Reds	1976	2629708	0.6296	2
+Cleveland Indians	1999	3468436	0.5951	3
+Houston Astros	2004	3087872	0.5679	6
+Kansas City Royals	2015	2708549	0.5864	3
+Milwaukee Brewers	2011	3071373	0.5926	1
+Minnesota Twins	2010	3223640	0.5802	5
+Oakland Athletics	1990	2900217	0.6358	3
+Philadelphia Phillies	2011	3680718	0.6296	1
+Pittsburgh Pirates	2015	2498596	0.6049	2
+San Diego Padres	2004	3040046	0.5370	8
+Seattle Mariners	2002	3542938	0.5741	3
+Texas Rangers	2012	3460280	0.5741	5
+Toronto Blue Jays	1993	4057947	0.5864	4
