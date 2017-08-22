@@ -1,7 +1,6 @@
 #Load libary's 
-library("ggplot2")
-library("plyr")
-library("reshape2")
+library("ggplot2") # for creating the plot
+library("reshape2") # needed for melting data together
 
 #Set working directory
 setwd("")
