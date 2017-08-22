@@ -1,0 +1,14 @@
+Team	Year	MaxAttendance	TotalRunsScored	TotalRunsScoredRanked	TotalRunsAllowedRanked	TotalHomeRunsRanked
+Chicago Cubs	2008	3299840	855	1	35	9
+Cleveland Indians	1999	3468436	1009	1	4	5
+Cincinnati Reds	1976	2629708	857	2	33	26
+Chicago White Sox	2006	2957414	868	3	10	2
+San Diego Padres	2004	3040046	768	4	20	16
+Toronto Blue Jays	1993	4057947	847	5	19	23
+Houston Astros	2004	3087872	803	6	17	6
+Baltimore Orioles	1997	3711132	812	6	29	11
+New York Mets	2008	4047404	799	6	11	10
+Seattle Mariners	2002	3542938	814	7	29	19
+Minnesota Twins	2010	3223640	781	8	39	15
+Boston Red Sox	2009	3062699	872	8	17	4
+Detroit Tigers	2008	3202654	821	9	7	9
