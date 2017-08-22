@@ -9,7 +9,7 @@ setwd("")
 list.files()
 
 #Read csv file in to R
-rs <- read.csv("AttendancVSRuns.csv", sep = ",")
+rs <- read.csv("PlottingData.csv", sep = ",")
 
 #Check data
 head(rs)
