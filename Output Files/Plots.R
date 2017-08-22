@@ -15,7 +15,7 @@ rs <- read.csv("AttendancVSRuns.csv", sep = ",")
 #Check data
 head(rs)
 
-#Melt the data wanted variables together
+#Melt the wanted variables together
 dfm <- melt(rs[,c('Team','TotalRunsScoredRanked','TotalRunsAllowedRanked', 'TotalHomeRunsRanked')],id.vars = 1)
 
 #Plot the data
