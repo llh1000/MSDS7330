@@ -1,6 +1,7 @@
 # MSDS7330
 Final Project for MSDS7330
-Contains data and query files for final project
+
+Contains data and query and output files for final project
 
 Data Files:
   attendance,
@@ -8,7 +9,7 @@ Data Files:
   ballparks,
   (divisions - collected data but not used for analysis)
 
-Analysis
+Query Files:
   Data Files - pulls in data for analysis;
   Rename Teams - changes Team abbreviations to standardized Team Names;
   Attendance and Win Loss Queries - contains SQL to identify:
