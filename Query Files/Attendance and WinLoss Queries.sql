@@ -17,61 +17,6 @@ order by BeginYear,Team;
 select distinct year from attendance
 order by year;
 
-create table decade
-(year numeric, 
-decade varchar(10)
-);
-insert into decade values(1969,'1970s');
-insert into decade values(1970,'1970s');
-insert into decade values(1971,'1970s');
-insert into decade values(1972,'1970s');
-insert into decade values(1973,'1970s');
-insert into decade values(1974,'1970s');
-insert into decade values(1975,'1970s');
-insert into decade values(1976,'1970s');
-insert into decade values(1977,'1970s');
-insert into decade values(1978,'1970s');
-insert into decade values(1979,'1970s');
-insert into decade values(1980,'1980s');
-insert into decade values(1981,'1980s');
-insert into decade values(1982,'1980s');
-insert into decade values(1983,'1980s');
-insert into decade values(1984,'1980s');
-insert into decade values(1985,'1980s');
-insert into decade values(1986,'1980s');
-insert into decade values(1987,'1980s');
-insert into decade values(1988,'1980s');
-insert into decade values(1989,'1980s');
-insert into decade values(1990,'1990s');
-insert into decade values(1991,'1990s');
-insert into decade values(1992,'1990s');
-insert into decade values(1993,'1990s');
-insert into decade values(1994,'1990s');
-insert into decade values(1995,'1990s');
-insert into decade values(1996,'1990s');
-insert into decade values(1997,'1990s');
-insert into decade values(1998,'1990s');
-insert into decade values(1999,'1990s');
-insert into decade values(2000,'2000s');
-insert into decade values(2001,'2000s');
-insert into decade values(2002,'2000s');
-insert into decade values(2003,'2000s');
-insert into decade values(2004,'2000s');
-insert into decade values(2005,'2000s');
-insert into decade values(2006,'2000s');
-insert into decade values(2007,'2000s');
-insert into decade values(2008,'2000s');
-insert into decade values(2009,'2000s');
-insert into decade values(2010,'2010s');
-insert into decade values(2011,'2010s');
-insert into decade values(2012,'2010s');
-insert into decade values(2013,'2010s');
-insert into decade values(2014,'2010s');
-insert into decade values(2015,'2010s');
-insert into decade values(2016,'2010s');
-
-select * from decade;
-
 create view maxresults as
 SELECT MAX(attendance) AS maxatt, team
 FROM attendance
