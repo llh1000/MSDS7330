@@ -10,13 +10,11 @@ Data Files:
   wins.csv - contains winning games per team per season from www.mlb.com (see References section in paper for precise URL)
   baseballdata.csv - contains runs scored, allowed, and homeruns from www.mlb.com (see References section in paper for precise URL's)
   Metro_Area_Populations.csv - contains population data for metropolitan statistical areas (MSA's) associated with MLB teams from 
-  https://www2.census.gov/programs-surveys/popest/datasets (see References section in paper for precise URL's)
-  (ballparks.csv  - collected data but not used for analysis)
-  (divisions.csv - collected data but not used for analysis)
+  https://www2.census.gov/programs-surveys/popest/datasets (see References section in paper for precise URL's
 
 Query Files:
 All files use a local MySQL database to perform analysis
-  Data Files - builds data tables for attendance, wins, ballparks, and divisions data files
+  Data Files - builds data tables for attendance and wins files
   Rename Teams - changes Team abbreviations to standardized Team Names;
   Attendance and Win Loss Queries - query files to obtain following insights:
     Basic analytics for number of seasons reviewed and franchise changes
