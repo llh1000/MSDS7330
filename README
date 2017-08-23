@@ -7,9 +7,10 @@ GitHub link also contains supporting data, query and output files as described b
 
 Data Files:
   attendance.csv - contains attendance data from www.ballparksofbaseball.com/baseball-ballpark-attendance/
-  wins.csv - contains winning games per team per season from www.mlb.com (see References section in paper for specific URL)
-  baseballdata.csv - contains runs scored, allowed, and homeruns from www.mlb.com (see References section in paper for specific URL's)
-  Metro_Area_Populations.csv - contains population data for metropolitan statistical areas (MSA's) associated with MLB teams
+  wins.csv - contains winning games per team per season from www.mlb.com (see References section in paper for precise URL)
+  baseballdata.csv - contains runs scored, allowed, and homeruns from www.mlb.com (see References section in paper for precise URL's)
+  Metro_Area_Populations.csv - contains population data for metropolitan statistical areas (MSA's) associated with MLB teams from 
+  https://www2.census.gov/programs-surveys/popest/datasets (see References section in paper for precise URL's)
   (ballparks.csv  - collected data but not used for analysis)
   (divisions.csv - collected data but not used for analysis)
 
