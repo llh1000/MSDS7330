@@ -8,14 +8,14 @@ setwd("")
 # Check files 
 list.files()
 
-# Read txt file in to R
-rs <- read.table("PlottingData.txt")
+# Read csv file in to R
+rs <- read.csv("PlottingData.csv", header = TRUE, sep = ",")
 
 # Check data
 head(rs)
 
 # Melt the wanted variables together
-dfm <- melt(rs[,c('Team','TotalRunsScoredRanked','TotalRunsAllowedRanked', 'TotalHomeRunsRanked')],id.vars = 1)
+dfm <- melt(rs[,c('Team','Runs_Scored_Ranked','Runs_Allowed_Ranked', 'Home_Runs_Ranked')],id.vars = 1)
 
 # Plot the data
 ggplot(dfm,aes(x = Team,y = value)) + 
