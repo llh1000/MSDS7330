@@ -1,30 +1,3 @@
-CREATE SCHEMA `mlb_attendance`;
-use mlb_attendance;
-
-create table `metro_areas`	
-(	`TEAM` varchar(25),
-	`METRO_AREA` varchar(50)
-)
-;
-
-LOAD DATA LOCAL INFILE "C:/Users/Dan Freeman/Documents/Southern Methodist University - MS in Data Science/Courses/Summer 2017/MSDS 7330 File Organization and Database Management/Group Project/Metro_Areas.txt" into table metro_areas
-fields terminated by "	";
-
-select * from metro_areas;
-
-create table `populations`
-(	`TEAM` varchar(25),
-    `YEAR` numeric,
-    `PERIOD` varchar(25),
-	`POPULATION` numeric
-)
-;
-
-LOAD DATA LOCAL INFILE "C:/Users/Dan Freeman/Documents/Southern Methodist University - MS in Data Science/Courses/Summer 2017/MSDS 7330 File Organization and Database Management/Group Project/Metro_Area_Populations.csv" into table populations
-fields terminated by ",";
-
-select * from populations;
-
 create table population_attendance as
 select p.team, p.year, p.period, p.population, a.attendance
 from populations p join attendance a on p.team=a.team and p.year=a.year;
