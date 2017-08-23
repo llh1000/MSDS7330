@@ -81,16 +81,31 @@ create table `runs`
 LOAD DATA LOCAL INFILE 'C:/MySQL/TermProject/BaseballData.txt' into table runs fields terminated by ',';
 select * from runs;
 
------ Create a table for Population  -----
-------------------------------------------
+----- Create a table for Metro Areas  -----
+-------------------------------------------
 create table `metro_areas`	
 (	`TEAM` varchar(25),
 	`METRO_AREA` varchar(50)
 )
 ;
 
--- Populate the runs tabe and check ------
-------------------------------------------
+-- Populate the Metro Areas table and check ------
+-------------------------------------------------
 LOAD DATA LOCAL INFILE "C:/Users/Dan Freeman/Documents/Southern Methodist University - MS in Data Science/Courses/Summer 2017/MSDS 7330 File Organization and Database Management/Group Project/Metro_Areas.txt" into table metro_areas fields terminated by ",";
 
+----- Create a table for Populations  -----
+-------------------------------------------
+create table `populations`
+(	`TEAM` 		varchar(25),
+    	`YEAR` 		numeric,
+    `	PERIOD` 	varchar(25),
+	`POPULATION` 	numeric
+)
+;
 
+-- Populate the Populaitons table and check ------
+--------------------------------------------------
+LOAD DATA LOCAL INFILE "C:/Users/Dan Freeman/Documents/Southern Methodist University - MS in Data Science/Courses/Summer 2017/MSDS 7330 File Organization and Database Management/Group Project/Metro_Area_Populations.csv" into table populations
+fields terminated by ",";
+
+select * from populations;
